@@ -11,4 +11,8 @@ class Student < User
     self.knowledge << topic
   end
 
+  def knowledge
+    self.knowledge
+  end
+
 end
